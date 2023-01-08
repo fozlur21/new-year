@@ -42,3 +42,81 @@
     text-align: right;
 
 }
+/* Second Page*/
+.failore-container{
+    display: flex;
+    gap: 85px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 130px;
+}
+.failure-title{
+    font-weight: 700;
+    font-size: 40px;
+    width: 288px;
+    height: 94px;
+    color: #151414;
+    margin-bottom: 25px;
+
+
+}
+.failure-description{
+    color: #444343;
+    width: 416px;
+    height: 104px;
+    margin-bottom: 15px;
+}
+div ul{
+    list-style: none;
+    text-align: left;
+    margin-top: 15px;
+}
+div li{
+    margin-bottom: 8px;
+    width: 415px;
+    height: 26px;
+    position: relative;
+    right: 35px;
+    
+}
+li::before {
+    content: "✔";
+    color: rgb(128, 45, 0);
+    font-size: larger;
+    padding-right: 5px;
+  }
+
+.section-title{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 125px;
+    margin-bottom: 50px;
+}
+.skills-container{
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0px 230px;
+}
+.skill{
+    background: #FFFFFF;
+    text-align: center;
+
+}
+.skill-title{
+    font-weight: 700;
+    font-size: 20px;
+    color: #181818;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    ;
+}
+.skill-description{
+    color: #757575;
+}
+.watch-banner{
+    padding: 0px 150px;
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
